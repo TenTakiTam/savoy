@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sklep - Strona Główna</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/swiperconfig.css">
+    <link rel="stylesheet" href="scss/main.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-header container">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Sklep</a></li>
+                        <li>
+                            <a href="">Kategorie</a>
+                            <ul>
+                                <li><a href="#">link1</a></li>
+                                <li><a href="#">link2</a></li>
+                                <li><a href="#">link3</a></li>
+                            </ul>
+                        </li>
+                        
+                           
+                            <li>
+                                <a href="">Produkty</a> 
+                                <ul>
+                                    <li><a href="#">link1</a></li>
+                                    <li><a href="#">link2</a></li>
+                                    <li><a href="#">link3</a></li>
+                                    <li><a href="#">link4</a></li>
+                                    <li><a href="#">link5</a></li>
+                                    <li><a href="#">link6</a></li>
+                                    <li><a href="#">link7</a></li>
+                                    <li><a href="#">link8</a></li>
+                                    <li><a href="#">link9</a></li>
+                                    <li><a href="#">link10</a></li>
+                                </ul>
+                            </li>
+                        
+                    </ul>
+                </nav>
+                <section class="logo"> <a href="index.html">SAVOY</a></section>
+                <section class="acc-menu">
+                    <button class="btn">Sign in</button>
+                    <button class="btn">cart <sup>0</sup>  </button>
+                </section>
+       </header>
+        
+           
+        
+        <main class="container">
+            <ul class="category-list">
+                <li><a href="">guczi</a></li>
+                <li><a href="">lui</a></li>
+                <li><a href="">wajset</a></li>
+            </ul>
+        </main>
+        <footer>
+            <section>created by &copy;<span> IzI DESIGN  </span> 2020</section> 
+            <nav>
+                <ul>
+                    <li><a href="">kontakt</a></li>
+                    <li><a href="">o mnie</a></li>
+                    <li><a href="">tak o</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      cssMode: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination'
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+    </script>
+</body>
+</html>
